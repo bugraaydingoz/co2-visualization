@@ -1,0 +1,30 @@
+.progress-body {
+    width: 50%;
+    margin: auto;
+}
+
+.progress-animation::-webkit-progress-value {
+    -webkit-transition: width 1s ease, background-color 1000ms linear;
+    -ms-transition: width 1s ease, background-color 1000ms linear;
+    transition: width 1s ease, background-color 1000ms linear;
+}
+
+.progress-animation::-moz-progress-bar {
+    -webkit-transition: width 1s ease, background-color 1000ms linear;
+    -ms-transition: width 1s ease, background-color 1000ms linear;
+    transition: width 1s ease, background-color 1000ms linear;
+}
+
+.progress-animation::-ms-fill {
+    -webkit-transition: width 1s ease, background-color 1000ms linear;
+    -ms-transition: width 1s ease, background-color 1000ms linear;
+    transition: width 1s ease, background-color 1000ms linear;
+}
+
+/* for phone screens */
+
+@media screen and (max-width: 768px) {
+    .progress-body {
+        width: 80%;
+    }
+}
