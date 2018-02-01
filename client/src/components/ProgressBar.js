@@ -16,7 +16,7 @@ export class ProgressBar extends React.Component {
     }
 
     getValues() {
-        axios.get('/random_co2')
+        axios.get('/api/random_co2')
             .then((response) => {
                 // console.log(response.data)
                 this.setValues(response.data.co2_value, response.data.co2_percentage)
