@@ -17,6 +17,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.use('/api', index);
 
 // send all other requests to react index
