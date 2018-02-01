@@ -10,5 +10,4 @@ It is a simple web app where random values are getting pulled every 10 seconds.
 
 ## Demo Link
 
-https://co2-bgrydngz.c9users.io
-
+https://co2visualization.herokuapp.com
